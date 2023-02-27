@@ -59,6 +59,8 @@ h1{
 
 h2{
     font-family: "montserrat-bold";
+    line-height: 1.5;
+    font-size: 3rem;
 }
 
 h3{
@@ -85,5 +87,16 @@ p{
     text-align: center;
     background-color: #ef8172;
     color: #ffff;
-    line-height: 1,5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
 }
