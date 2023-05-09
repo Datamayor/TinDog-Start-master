@@ -44,12 +44,16 @@ h1{
 }
 
 .title-image{
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
@@ -112,8 +116,13 @@ p{
 
 #pricing{
     padding: 100px;
+    text-align: center;
 }
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+@media screen (max-width:1028px;) {
+    
 }
